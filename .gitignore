@@ -1,0 +1,194 @@
+# IDE - Cursor
+.cursorrules
+.cursor/
+.cursor-server/
+.cursor.json
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+
+# IDE - Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# .NET Core
+bin/
+obj/
+*.dll
+*.pdb
+*.cache
+*.log
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+package-lock.json
+yarn.lock
+
+# React / React Native
+build/
+dist/
+coverage/
+.next/
+.nuxt/
+.DS_Store
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+ios/Pods/
+android/.gradle/
+android/app/build/
+ios/build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Testing
+coverage/
+.nyc_output/
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+
+# Production build files
+**/bin/
+**/obj/
+**/build/
+**/dist/
+**/out/
+**/publish/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+*.env
+secrets.json
+connectionstrings.json
+**/Properties/launchSettings.json
+
+# Secrets and keys
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.*.json
+*.pfx
+*.key
+*.pem
+*.cert
+*.crt
+*.p12
+*.pubxml
+*.pubxml.user
+
+# Database
+*.db
+*.sqlite3
+*.sqlite
+*.mdf
+*.ldf
+*.bak
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+
+# Docker
+.docker/
+docker-compose.override.yml
+docker-compose.*.yml
+!docker-compose.yml
+
+# Microservices Specific
+**/Migrations/*.cs
+**/Migrations/*.resx
+!**/Migrations/README.md
+
+# Redis
+dump.rdb
+*.rdb
+
+# RabbitMQ
+.erlang.cookie
+erl_crash.dump
+
+# Swagger
+/swagger/
+
+# Temporary files
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+[Tt]emp/
+.vs/
+*.bak
+*.cache
+*.tmp_proj
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/ 
